@@ -36,34 +36,34 @@ export default function Authenticated({
                             </div>
                             <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <NavLink
-                                    href={route("dashboard")}
-                                    active={route().current("#")}
+                                    href={route("Management_event")}
+                                    active={route().current("Management_event")}
                                 >
                                     Management Event
                                 </NavLink>
                             </div>
                             <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <NavLink
-                                    href={route("dashboard")}
-                                    active={route().current("#")}
+                                    href={route("Daftar_peserta")}
+                                    active={route().current("Daftar_peserta")}
                                 >
                                     Daftar Peserta
                                 </NavLink>
                             </div>
                             <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <NavLink
-                                    href={route("dashboard")}
-                                    active={route().current("#")}
+                                    href={route("Laporan")}
+                                    active={route().current("Laporan")}
                                 >
                                     Laporan Event
                                 </NavLink>
                             </div>
                             <div className="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
                                 <NavLink
-                                    href={route("dashboard")}
-                                    active={route().current("#")}
+                                    href={route("Management_Link")}
+                                    active={route().current("Management_Link")}
                                 >
-                                    Link Event
+                                    Management Link
                                 </NavLink>
                             </div>
                         </div>
